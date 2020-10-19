@@ -1,0 +1,38 @@
+
+.campaign {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.7vw;
+    align-items: stretch;
+    align-content: stretch;
+    flex: 1 1 auto;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
+    position: relative;
+    margin: 0.7vw;
+    height: fit-content;
+    transform-origin: center;
+    transition: box-shadow 0.5s, background 0.5s, transform 0.5s, -webkit-transform 0.5s;
+    max-width: 220px;
+    min-width: 220px;
+}
+
+.truncated-text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.name {
+    color: #6c5b7b;
+}
+
+.type {
+    color: #6c5b7b;
+}
+
+.company {
+    color: #6c5b7b;
+}

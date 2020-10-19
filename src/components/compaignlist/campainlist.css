@@ -1,0 +1,31 @@
+.campaign-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+
+.warning-message {
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    box-shadow: none;
+    display: flex;
+    padding: 6px 16px;
+    font-size: 0.875rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    border-radius: 4px;
+    letter-spacing: 0.01071em;
+    color: rgb(102, 60, 0);
+    background-color: rgb(255, 244, 229);
+    margin-top: 16px;
+    text-align: center;
+    width: 600px;
+    height: 40px;
+    align-items: center;
+}
